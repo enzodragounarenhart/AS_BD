@@ -1,0 +1,29 @@
+// SCRIPTS ATUALIZACAO
+
+db.cliente.updateOne
+(
+    { "nome": "Enzo Dragoun Arenhart"},
+    { $set: { "enderecos.rua": "Rua Muda", "enderecos.numero": 245}}
+)
+
+db.pedido.updateMany
+(
+    {}, 
+    { $inc: { "bebidas.preco": 2}}
+)
+
+// SCRIPTS EXCLUSAO
+
+db.cliente.deleteOne
+(
+    {
+        "nome": "Nao de Tal"
+    }
+)
+
+db.pizza.deleteMany
+(
+    {
+        "tamanho": "pequena"
+    }
+)

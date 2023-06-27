@@ -1,0 +1,15 @@
+AGREGACOES
+
+db.cliente.aggregate([
+  { $match: { "enderecos.cidade": "Torres" } },
+  { $group: {
+    _id: "$enderecos.bairro",
+    clientes: { $push: "$nome" }
+  }}
+])
+
+db.pedido.aggregate([
+  { $match: { processado: 1 } },
+  { $group: { _id: "$cliente.enderecos.bairro", qtd: { $sum: 1 } } },
+  { $sort: { qtd: -1 } }
+])

@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "649a79adc7a3ea83f35b0bd2"
+  },
+  "nome": "Enzo Dragoun Arenhart",
+  "enderecos": {
+    "rua": "Rua Alfiero Zanardi",
+    "numero": 1291,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98189-8848"
+},
+{
+  "_id": {
+    "$oid": "649a7b8eddff1be00d8c88c9"
+  },
+  "nome": "Fulano de Tal",
+  "enderecos": {
+    "rua": "Rua Fulano",
+    "numero": 1234,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98765-4321"
+},
+{
+  "_id": {
+    "$oid": "649a7cddddff1be00d8c88ca"
+  },
+  "nome": "Ciclano de Tal",
+  "enderecos": {
+    "rua": "Rua Fulano",
+    "numero": 1234,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98785-4321"
+},
+{
+  "_id": {
+    "$oid": "649a7cddddff1be00d8c88cb"
+  },
+  "nome": "Nao de Tal",
+  "enderecos": {
+    "rua": "Rua Fulano",
+    "numero": 1234,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98785-4322"
+}]

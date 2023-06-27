@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "649a7932c7a3ea83f35b0bce"
+  },
+  "rua": "Rua Alfiero Zanardi",
+  "numero": 1291,
+  "bairro": "Guarita",
+  "cidade": "Torres",
+  "estado": "RS"
+},
+{
+  "_id": {
+    "$oid": "649a7992ddff1be00d8c88c8"
+  },
+  "rua": "Rua Fulano",
+  "numero": 1234,
+  "bairro": "Centro",
+  "cidade": "Torres",
+  "estado": "RS"
+}]

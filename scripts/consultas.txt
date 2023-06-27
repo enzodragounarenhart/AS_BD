@@ -1,0 +1,40 @@
+// FIND ALL
+
+db.pizza.find().toArray()
+db.enderecos.find().toArray()
+db.pedido.find().toArray()
+db.cliente.find().toArray()
+db.bebidas.find().toArray()
+
+// CONSULTAS COM CONDICAO
+
+db.pizza.find
+(
+    {
+        "tamanho": "media"
+    }
+)
+db.pedido.find
+(
+    {
+        "processado": 1
+    }
+)
+db.enderecos.find
+(
+    {
+        "cidade": "Torres"
+    }
+)
+db.cliente.find
+(
+    {
+        "enderecos.bairro": "Guarita"
+    }
+)
+db.bebidas.find
+(
+    {
+        "preco": {$lt: 12}
+    }
+)

@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "649a8272ddff1be00d8c88cd"
+  },
+  "cliente": {
+    "nome": "Enzo Dragoun Arenhart",
+    "enderecos": {
+      "rua": "Rua Alfiero Zanardi",
+      "numero": 1291,
+      "bairro": "Guarita",
+      "cidade": "Torres",
+      "Estado": "RS"
+    },
+    "telefone": "51 98189-8848"
+  },
+  "pizza": {
+    "idPizza": 1,
+    "nome": "Calabresa",
+    "ingredientes": "Ingredientes aqui",
+    "preco": 20,
+    "tamanho": "grande"
+  },
+  "data_pedido": "2023-06-25T21:30:46Z",
+  "processado": 1,
+  "bebidas": {
+    "nome": "sprite",
+    "preco": 10
+  }
+},
+{
+  "cliente": {
+    "nome": "Enzo Dragoun Arenhart",
+    "enderecos": {
+      "rua": "Rua Alfiero Zanardi",
+      "numero": 1291,
+      "bairro": "Guarita",
+      "cidade": "Torres",
+      "Estado": "RS"
+    },
+    "telefone": "51 98189-8848"
+  },
+  "pizza": {
+    "idPizza": 1,
+    "nome": "Calabresa",
+    "ingredientes": "Ingredientes aqui",
+    "preco": 20,
+    "tamanho": "grande"
+  },
+  "data_pedido": "2023-06-25T21:30:46Z",
+  "processado": 1,
+  "bebidas": {
+    "nome": "sprite",
+    "preco": 10
+  }
+}]

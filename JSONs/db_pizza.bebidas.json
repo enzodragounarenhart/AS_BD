@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "649a9389c7a3ea83f35b0bed"
+  },
+  "nome": "sprite",
+  "preco": 10
+},
+{
+  "_id": {
+    "$oid": "649a93b1c7a3ea83f35b0bee"
+  },
+  "nome": "coca-cola",
+  "preco": 12
+},
+{
+  "_id": {
+    "$oid": "649a93ebc7a3ea83f35b0bef"
+  },
+  "nome": "fanta",
+  "preco": 9
+}]

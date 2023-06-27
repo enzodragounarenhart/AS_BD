@@ -1,0 +1,171 @@
+INSERT DE PEDIDOS
+
+db.createCollection("pedido")
+
+db.pedido.insertMany([
+{
+  "cliente": {
+    "nome": "Fulano de Tal",
+  "enderecos": {
+    "rua": "Rua Fulano",
+    "numero": 1234,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+    "telefone": "51 98765-4321"
+  },
+  "pizza": {
+    "idPizza": 1,
+    "nome": "Calabresa",
+    "ingredientes": "Ingredientes aqui",
+    "preco": 18,
+    "tamanho": "media"
+  },
+  "data_pedido": "2023-06-25T21:30:46Z",
+  "processado": 1,
+  "bebidas": {
+    "nome": "sprite",
+    "preco": 10
+  }
+},
+{"cliente": {
+  "nome": "Enzo Dragoun Arenhart",
+  "enderecos": {
+    "rua": "Rua Alfiero Zanardi",
+    "numero": 1291,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "Estado": "RS"
+  },
+  "telefone": "51 98189-8848"
+},
+"pizza": {
+  "idPizza": 1,
+  "nome": "Calabresa",
+  "ingredientes": "Ingredientes aqui",
+  "preco": 20,
+  "tamanho": "grande"
+},
+"data_pedido": "2023-06-25T21:30:46Z",
+"processado": 1,
+"bebidas": {
+  "nome": "sprite",
+  "preco": 10
+}
+}
+])
+
+INSERT DE BEBIDAS
+
+db.createCollection("bebidas")
+
+db.bebidas.insertMany([{
+  "nome": "sprite",
+  "preco": 10
+},
+{
+  "nome": "coca-cola",
+  "preco": 12
+},
+{
+  "nome": "fanta",
+  "preco": 9
+}])
+
+INSERT PIZZAS
+
+db.createCollection("pizza")
+
+db.pizza.insertMany([{
+  "nome": "Calabresa",
+  "ingredientes": "Ingredientes aqui",
+  "preco": 15,
+  "tamanho": "pequena"
+},
+{
+  "nome": "Portuguesa",
+  "ingredientes": "Ingredientes Portuguesa",
+  "preco": 16,
+  "tamaho": "pequena"
+},
+{
+  "nome": "Bacon",
+  "ingredientes": "Ingredientes Bacon",
+  "preco": 18,
+  "tamanho": "pequena"
+},
+{
+  "nome": "Chocolate",
+  "ingredientes": "Ingredientes Chocolate",
+  "preco": 21,
+  "tamanho": "media"
+}])
+
+INSERT ENDERECOS
+
+db.createCollection("enderecos")
+
+db.enderecos.insertMany([{
+  "rua": "Rua Alfiero Zanardi",
+  "numero": 1291,
+  "bairro": "Guarita",
+  "cidade": "Torres",
+  "estado": "RS"
+},
+{
+  "rua": "Rua Fulano",
+  "numero": 1234,
+  "bairro": "Centro",
+  "cidade": "Torres",
+  "estado": "RS"
+}])
+
+INSERT CLIENTES
+
+db.createCollection("cliente")
+
+db.cliente.insertMany([{
+  "nome": "Enzo Dragoun Arenhart",
+  "enderecos": {
+    "rua": "Rua Alfiero Zanardi",
+    "numero": 1291,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98189-8848"
+},
+{
+  "nome": "Fulano de Tal",
+  "enderecos": {
+    "rua": "Rua Fulano",
+    "numero": 1234,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98765-4321"
+},
+{
+  "nome": "Ciclano de Tal",
+  "enderecos": {
+    "rua": "Rua Fulano",
+    "numero": 1234,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98785-4321"
+},
+{
+  "nome": "Nao de Tal",
+  "enderecos": {
+    "rua": "Rua Fulano",
+    "numero": 1234,
+    "bairro": "Guarita",
+    "cidade": "Torres",
+    "estado": "RS"
+  },
+  "telefone": "51 98785-4322"
+}])

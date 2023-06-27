@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "649a8673ddff1be00d8c88d3"
+  },
+  "nome": "Calabresa",
+  "ingredientes": "Ingredientes aqui",
+  "preco": 15,
+  "tamanho": "pequena"
+},
+{
+  "_id": {
+    "$oid": "649a8673ddff1be00d8c88d4"
+  },
+  "nome": "Portuguesa",
+  "ingredientes": "Ingredientes Portuguesa",
+  "preco": 16,
+  "tamaho": "pequena"
+},
+{
+  "_id": {
+    "$oid": "649a8673ddff1be00d8c88d5"
+  },
+  "nome": "Bacon",
+  "ingredientes": "Ingredientes Bacon",
+  "preco": 18,
+  "tamanho": "pequena"
+},
+{
+  "_id": {
+    "$oid": "649a8673ddff1be00d8c88d6"
+  },
+  "nome": "Chocolate",
+  "ingredientes": "Ingredientes Chocolate",
+  "preco": 21,
+  "tamanho": "media"
+}]
